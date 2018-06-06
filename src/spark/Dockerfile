@@ -1,4 +1,4 @@
-FROM smartislav/spark:2.3.0-jdk8u121
+FROM smartislav/spark:2.3.0-jdk8u121-mesos1.5.0
 
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv E56151BF \
  && apt-get -y update \
